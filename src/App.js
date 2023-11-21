@@ -24,7 +24,7 @@ function App() {
       });
     } else {
       console.log(
-        "Si no me das permiso, no puedo obtener la localizacion de tu city"
+        "something went wrong..."
       );
       getWeatherData(location.latitude, location.longitude,'');
     }
@@ -57,7 +57,7 @@ function App() {
       });
       
     } catch (error) {
-        console.log('no se pudo')
+        console.log('something went wrong...')
     }
     
     
